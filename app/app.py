@@ -23,7 +23,6 @@ def get_lagged_return_rate():
     selected_state = request.json.get("state")
 
     # Calculate the lagged return rate based on the selected state
-    # (You can replace this with your actual calculation logic)
     lagged_return_rate = {
         "CA": 0.12,
         "NY": 0.15,
